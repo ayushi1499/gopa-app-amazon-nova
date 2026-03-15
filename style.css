@@ -1,0 +1,32 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+.stApp {
+    background-color: #FFFDF5; /* Cream background */
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Customizing the Value Cards */
+.stButton>button {
+    border-radius: 20px;
+    border: 2px solid #FFD700;
+    background-color: white;
+    color: #004D40;
+    font-weight: 600;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    border-color: #004D40;
+    background-color: #F0FDF4;
+    transform: translateY(-5px);
+}
+
+/* The Magic Generate Button */
+div.stButton > button:first-child {
+    background-color: #FF8C00; /* Deep Orange */
+    color: white;
+    border: none;
+    height: 50px;
+}
