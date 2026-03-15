@@ -2,6 +2,10 @@ import streamlit as st
 from PIL import Image
 import time
 
+# Load Custom CSS
+with open("style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+    
 # UI Header
 st.set_page_config(page_title="GOPA: Krishna Stories", page_icon="✨")
 st.title("GOPA ✨")
