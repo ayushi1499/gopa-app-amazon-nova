@@ -1,0 +1,1 @@
+# gopa-app-amazon-nova
